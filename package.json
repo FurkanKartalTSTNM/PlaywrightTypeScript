@@ -1,0 +1,15 @@
+{
+  "name": "playwright-typescript-sample",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Playwright TypeScript project for Testinium scenario discovery.",
+  "scripts": {
+    "test": "playwright test",
+    "test:list": "playwright test --list",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "typescript": "^5.8.3"
+  }
+}
